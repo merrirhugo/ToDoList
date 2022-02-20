@@ -1,0 +1,46 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 200px 200px;
+    padding-left: 20px;
+    background-color: rgb(202, 235, 247);
+    border-radius: 0.25rem;
+}
+
+input {
+    margin-top: 20px;
+    height: 1cm;
+    width: 500px;
+    font-size: 0.7cm;
+}
+
+.listContainer {
+    display: grid;
+}
+
+.divTasks {
+    grid-column: 1/2;
+}
+
+.divTasksDone {
+    grid-column: 2/2;
+}
+
+h2 {
+    font-size: 1cm;
+    text-decoration: underline;
+}
+
+li {
+    font-size: 0.7cm;
+}
+
+button {
+    font-size: 0.6cm;
+    margin-left: 20px;
+    border-color: white;
+    border-radius: 0.5rem;
+}
+
